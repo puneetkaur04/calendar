@@ -1,0 +1,90 @@
+
+.calender-body{
+    display: grid;
+    width: 60%;
+    height: 100%;
+    margin:auto;
+    margin-top: -8px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.calender-weekDays{
+    margin-bottom: 30px;
+    display: grid;
+    padding: 2%;
+    column-gap: 1%;
+    font-size: 1.0em;
+    text-align: center;
+    color: white;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: black;
+}
+
+.calender-monthDays{
+    display: grid;
+    height: 320%;
+    padding: 2%;
+    column-gap: 1%;
+    row-gap: 10%;
+    font-size: 1.0em;
+    text-align: center;
+    color: white;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.monthName{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    width: 50%;      
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 2em;
+    padding: 5%;
+    margin-bottom: -2%;
+    text-align: center;
+    border: 6px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: pink;
+    width: 49.2%;
+    margin:auto;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+.prevMonth, .nextMonth{
+    background-color: black;
+    border-radius: 10px;
+    border: white;
+    color: pink;
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.prevMonth{
+    width: 10%;
+    height: 80px;
+    margin-top: -330px;
+}
+.nextMonth{
+    width: 10%;
+    height: 80px;
+    margin-top: -330px;
+    margin-left: 820px;
+}
+
+
+.prev-date, .next-date{
+    opacity: 0.5;
+    border-radius: 12px;
+}
